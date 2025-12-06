@@ -1,60 +1,60 @@
-Iris Flower Classification using Machine Learning
+**Iris Flower Classification using Machine Learning**<br>
 
-This project demonstrates a complete machine learning workflow using the classic Iris dataset. The goal is to classify iris flowers into their respective species — Setosa, Versicolor, and Virginica — based on sepal and petal measurements. This dataset is widely used for introductory ML and pattern recognition tasks.
+This project demonstrates a complete machine learning workflow using the classic Iris dataset. The goal is to classify iris flowers into their respective species — Setosa, Versicolor, and Virginica — based on sepal and petal measurements. This dataset is widely used for introductory ML and pattern recognition tasks.<br>
 
-📘 Project Overview
+📘 Project Overview<br>
 
-The Iris dataset contains 150 samples, each with four features:
-Sepal Length\n
-Sepal Width
-Petal Length
-Petal Width
-Using these measurements, the model predicts one of three species:
-Iris setosa
-Iris versicolor
-Iris virginica
-This project uses Logistic Regression from scikit-learn to build a multi-class classification model.
+The Iris dataset contains 150 samples, each with four features:<br>
+*Sepal Length<br>
+*Sepal Width<br>
+*Petal Length<br>
+*Petal Width<br>
+*Using these measurements, the model predicts one of three species:<br>
+*Iris setosa<br>
+*Iris versicolor<br>
+*Iris virginica<br>
+*This project uses Logistic Regression from scikit-learn to build a multi-class classification model.<br>
 
-🧠 Features of the Project
-✔ Loads the Iris dataset from scikit-learn
-✔ Splits data into training and testing sets
-✔ Standardizes feature values for better model performance
-✔ Trains a Logistic Regression classifier
-✔ Generates predictions
-✔ Displays detailed model evaluation
-✔ Plots a confusion matrix for easy visualization
+🧠 Features of the Project<br>
+✔ Loads the Iris dataset from scikit-learn<br>
+✔ Splits data into training and testing sets<br>
+✔ Standardizes feature values for better model performance<br>
+✔ Trains a Logistic Regression classifier<br>
+✔ Generates predictions<br>
+✔ Displays detailed model evaluation<br>
+✔ Plots a confusion matrix for easy visualization<br>
 
-🛠️ Technologies Used
-Python
-Scikit-learn
-NumPy
-Matplotlib
-📂 Project Structure
-├── iris_classifier.py          # Main ML model code
-├── README.md                   # Project documentation
-├── .gitignore                  # Clean repo configuration
-└── LICENSE (optional)          # MIT license
-▶️ How to Run the Project
+🛠️ Technologies Used<br>
+*Python<br>
+*Scikit-learn<br>
+*NumPy<br>
+*Matplotlib<br>
+📂 Project Structure<br>
+├── iris_classifier.py          # Main ML model code<br>
+├── README.md                   # Project documentation<br>
+├── .gitignore                  # Clean repo configuration<br>
+└── LICENSE (optional)          # MIT license<br>
+▶️ How to Run the Project<br>
 
-Install required libraries:
-pip install scikit-learn matplotlib numpy
+Install required libraries:<br>
+pip install scikit-learn matplotlib numpy<br>
 
-Run the script:
-python iris_classifier.py
-The script will train the model, print the classification report, and show a confusion matrix plot.
+Run the script:<br>
+python iris_classifier.py<br>
+The script will train the model, print the classification report, and show a confusion matrix plot.<br>
 
-📊 Model Evaluation
+📊 Model Evaluation<br>
 
-The model is evaluated using:
-Accuracy
-Precision
-Recall
-F1-score
+The model is evaluated using:<br>
+*Accuracy<br>
+*Precision<br>
+*Recall<br>
+*F1-score<br>
 
-Confusion Matrix
-Logistic Regression performs extremely well on the Iris dataset, achieving high accuracy and very few misclassifications.
+Confusion Matrix<br>
+Logistic Regression performs extremely well on the Iris dataset, achieving high accuracy and very few misclassifications.<br>
 
-📈 Confusion Matrix Visualization
+📈 Confusion Matrix Visualization<br>
 
 <img width="1111" height="927" alt="Screenshot 2025-12-06 154520" src="https://github.com/user-attachments/assets/604b92fc-2729-45ae-9a4a-3fd356f6fb49" />
 
